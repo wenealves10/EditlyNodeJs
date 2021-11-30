@@ -1,0 +1,23 @@
+{
+  "name": "editlynodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenealves10/EditlyNodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenealves10/EditlyNodeJs/issues"
+  },
+  "homepage": "https://github.com/wenealves10/EditlyNodeJs#readme",
+  "dependencies": {
+    "editly": "^0.11.3"
+  }
+}
