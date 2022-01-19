@@ -3,7 +3,6 @@ const editly = require('editly');
 const editSpec = {
   outPath: './musica2.mp4',
   allowRemoteRequests: true,
-  audioFilePath: 'https://s3.eu-central-1.wasabisys.com/storage-lindasmensagens/audio/video.mp3',
   keepSourceAudio: true,
   defaults: {
     layerType: {
@@ -26,6 +25,13 @@ const editSpec = {
       },
     ]
   }],
+  audio: [{
+    path: './music.mp3',
+    mixVolume: 1,
+    cutFrom: 0,
+    cutTo: 30,
+    start: 0,
+  }, ],
 }
 async function main() {
   await editly(editSpec)
