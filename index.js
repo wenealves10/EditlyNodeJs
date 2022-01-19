@@ -3,6 +3,7 @@ const editly = require('editly');
 const editSpec = {
   outPath: './musica2.mp4',
   allowRemoteRequests: true,
+  audioFilePath: 'https://s3.eu-central-1.wasabisys.com/storage-lindasmensagens/audio/video.mp3',
   keepSourceAudio: true,
   defaults: {
     layerType: {
@@ -17,11 +18,6 @@ const editSpec = {
         type: 'image',
         path: 'https://i.ytimg.com/vi/LQ9XbPAowCQ/maxresdefault.jpg',
         resizeMode: 'contain-blur'
-      },
-      {
-        type: 'audio',
-        path: 'https://s3.eu-central-1.wasabisys.com/storage-lindasmensagens/audio/video.mp3',
-        cutFrom: 27
       },
       {
         type: 'title',
