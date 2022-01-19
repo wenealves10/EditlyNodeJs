@@ -1,9 +1,7 @@
 const editly = require('editly');
 
-
-
 const editSpec = {
-  outPath: './musica.mp4',
+  outPath: './musica2.mp4',
   allowRemoteRequests: true,
   keepSourceAudio: true,
   defaults: {
