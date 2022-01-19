@@ -25,6 +25,11 @@ const editSpec = {
       },
     ]
   }],
+  audioNorm: {
+    enable: false,
+    gaussSize: 5,
+    maxGain: 30,
+  },
   audio: [{
     path: './music.mp3',
     mixVolume: 1,
@@ -32,6 +37,9 @@ const editSpec = {
     cutTo: 30,
     start: 0,
   }, ],
+  enableFfmpegLog: false,
+  verbose: false,
+  fast: false,
 }
 async function main() {
   await editly(editSpec)
